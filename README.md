@@ -18,7 +18,14 @@ Use modern LLMs to automatically generate reports for rule‑breaking Roblox use
    git clone https://github.com/miniozoid3/RobloxAiReportGen.git
    ```
 
-3. **Create and activate a virtual environment** (recommended)
+3. **Change working directory**
+
+   ```bash
+   cd RobloxAiReportGen/LocalApi
+   ```
+
+
+4. **Create and activate a virtual environment** (recommended)
 
    * On Windows (PowerShell)
 
@@ -38,12 +45,6 @@ Use modern LLMs to automatically generate reports for rule‑breaking Roblox use
      python3 -m venv venv
      source venv/bin/activate
      ```
-
-4. **Change working directory**
-
-   ```bash
-   cd RobloxAiReportGen/LocalApi
-   ```
 
 5. **Install dependencies**
 
