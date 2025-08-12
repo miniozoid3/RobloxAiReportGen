@@ -153,7 +153,6 @@
                     const emailSelector = 'input.form-control.input-field[maxlength="320"]:not([data-testid])';
                     const emailInput = await waitForElement(emailSelector);
                     if (emailInput) {
-                        const email = email;
                         setNativeValue(emailInput, email);
                     }
 
@@ -177,7 +176,6 @@
                     const emailSelector = 'input.form-control.input-field[maxlength="320"]:not([data-testid])';
                     const emailInput = await waitForElement(emailSelector);
                     if (emailInput) {
-                        const email = email;
                         setNativeValue(emailInput, email);
                     }
 
